@@ -33,9 +33,11 @@ ul,li{
 }
 .choosebox{
     position:relative;
-    
-    width: 16px;
-    margin-right: 8px;
+   
+}
+.choosebox-all{
+    position: relative;
+    top: -2px;
 }
 .choose-item{
     margin-bottom: 8px;
