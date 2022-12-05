@@ -42,7 +42,9 @@ function setAllcheck(){
 function reValue(){
     if(checkboxEssential[0].getAttribute('checked') !=null && checkboxEssential[1].getAttribute('checked') !=null){
         button.classList.add('is-active')
+        
     }else{
         button.classList.remove('is-active')
     }
 }
+

@@ -48,6 +48,7 @@ ul,li{
 }
 .choose-item-title{
     font-size: 14px;
+    letter-spacing: -0.02em;
 }
 .choose-item-title span{
     color: rgb(31, 134, 212);
@@ -72,6 +73,7 @@ ul,li{
     font-weight: 700;
     border-radius: 4px;
     border: none;
+    
 }
 .signup-button.is-active{
     width: 100%;
@@ -81,4 +83,11 @@ ul,li{
     font-size: 18px;
     font-weight: 700;
     border-radius: 4px;
+    cursor: pointer;
+}
+.signup-title{
+    position: absolute;
+    top: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.04em;
 }
