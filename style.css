@@ -71,6 +71,7 @@ ul,li{
     font-size: 18px;
     font-weight: 700;
     border-radius: 4px;
+    border: none;
 }
 .signup-button.is-active{
     width: 100%;
