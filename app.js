@@ -3,6 +3,7 @@ const checkboxAll = document.querySelector('.choosebox-all')
 const checkboxEssential = document.querySelectorAll('.choosebox-essential')
 const checkbox = document.querySelector('.choosebox')
 
+
 checkboxEssential[0].addEventListener('click',()=>{
     checkboxEssential[0].toggleAttribute('checked')
     reValue()
@@ -21,21 +22,31 @@ checkbox.addEventListener('click',()=>{
 checkboxAll.addEventListener('click',allClickHandler)
 
 function allClickHandler(){
+        checkboxAll.toggleAttribute('checked')
+        if(checkboxEssential[0].getAttribute('checked')===null && checkboxEssential[1].getAttribute('checked')===null && checkbox.getAttribute('checked') === null){
+            checkboxEssential.forEach((item)=>{
+                item.setAttribute('checked','')
+            })
+            checkbox.setAttribute('checked','')
+            reValue()
+        }else if(checkboxEssential[0].getAttribute('checked')!=null && checkboxEssential[1].getAttribute('checked')!=null && checkbox.getAttribute('checked') != null){
+            checkboxEssential.forEach((item)=>{
+                item.removeAttribute('checked')
+            })
+            checkbox.removeAttribute('checked')
+            reValue()
+        }
+        
     
-    checkboxEssential.forEach((item)=>{
-        item.setAttribute('checked','checked')
-    })
-    checkbox.setAttribute('checked','checked')
-    reValue()
     //
     
 }
 
 function setAllcheck(){
     if(checkboxEssential[0].getAttribute('checked') !=null && checkboxEssential[1].getAttribute('checked') !=null && checkbox.getAttribute('checked') != null){
-        checkboxAll.setAttribute('checked','checked')
+        checkboxAll.setAttribute('checked','')
     }else{
-        checkboxAll.removeAttribute('checked','checked')
+        checkboxAll.removeAttribute('checked','')
     }
 }
 
