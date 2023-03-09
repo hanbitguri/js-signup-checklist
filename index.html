@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/21aa72419f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1 class="signup-title">Hanbitguri</h1>
-    <article class="signup">  
+    <article class="signup"> 
+        <h2 class="visually-hidden" style="display: none;">사이트 가입약관</h2> 
         <div class="choose">
             <div class="all-choose">
-                <input type="checkbox" class="choosebox-all">
+                <i class="fa-regular fa-circle-check all-check"></i>
+                
                 <strong>전한빛 이용약관,개인정보 수집 및 이용 위치정보 이용약관(필수), <br>
                         프로모션 정보 수신(선택)에 모두 동의합니다.
                 </strong>
@@ -24,7 +28,7 @@
             <ul class="choose-list">
                 <li class="choose-item">
                     <div class="choose-item-header">
-                        <input type="checkbox" class="choosebox-essential">
+                        <i class="fa-regular fa-circle-check essential-check"></i>
                         <h3 class="choose-item-title">전한빛 이용약관 동의 <span>(필수)</span></h3>
                     </div>
                     <p class="choose-item-para"><strong>여러분을 환영합니다.</strong> 
@@ -33,14 +37,14 @@
                 </li>
                 <li class="choose-item">
                     <div class="choose-item-header">
-                        <input type="checkbox" class="choosebox-essential">
+                        <i class="fa-regular fa-circle-check essential-check"></i>
                         <h3 class="choose-item-title">개인정보 이용 및 수집 동의 <span>(필수)</span></h3>
                     </div>
                     <p class="choose-item-para">개인정보보호법에 따라 네이버에 회원가입 신청하시는 분께 수집하는 개인정보의 항목, 개인정보의 수집 및 이용목적, 개인정보의 보유 및 이용기간, 동의 거부권 및 동의 거부 시 불이익에 관한 사항을 안내 드리오니 자세히 읽은 후 동의하여 주시기 바랍니다.</p>
                 </li>
                 <li class="choose-item">
                     <div class="choose-item-header">
-                        <input type="checkbox" class="choosebox">
+                        <i class="fa-regular fa-circle-check optional-check"></i>
                         <h3 class="choose-item-title">프로모션 정보 수신 동의</h3>
                     </div>
                     <p class="choose-item-para">전한빛에서 제공하는 이벤트/혜택 등 다양한 정보를 휴대전화(네이버앱 알림 또는 문자), 이메일로 받아보실 수 있습니다. 일부 서비스(별도 회원 체계로 운영하거나 네이버 가입 이후 추가 가입하여 이용하는 서비스 등)의 경우, 개별 서비스에 대해 별도 수신 동의를 받을 수 있으며, 이때에도 수신 동의에 대해 별도로 안내하고 동의를 받습니다.</p>
@@ -51,6 +55,7 @@
         </div>
 
     </article>
+    
 
     <script src="./app.js"></script>
 </body>
