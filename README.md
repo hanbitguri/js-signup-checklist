@@ -1,8 +1,7 @@
 
 
-
 <p align='center'>
-<img src="https://user-images.githubusercontent.com/107792728/224009920-dc256b80-a686-4a39-ba03-1a9550450582.gif" height="600px" width="540px">
+<img src="https://user-images.githubusercontent.com/107792728/224013212-90203ac5-0e27-4192-abe5-c73a3187e940.gif" height="600px" width="540px">
 </p>
 
 
@@ -10,12 +9,14 @@
 
 
 
-<p align='center'>Vanilla JS로 연습 하는 가입약관 폼 만들어보기</p>
+<p align='center'>Vanilla JS로 연습 하는 가입약관 폼 만들어보기( 네이버 회원가입약관 폼을 참고하여 만들었습니다. )</p>
 <p align="middle">
   <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
   <img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
   <img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
 </p>
+
+
 
 ## ❔ 요구사항 정리하기
 
